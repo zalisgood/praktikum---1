@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="height: ;100%">
+    <!--div parent-->
+    <div style="display: flex; flex-direction: column; align-items: stretch; background-color: aqua; height: 100%; ">
+       
+       <div style="display: flex; justify-content: space-around; flex-direction: row;
+        padding: 10px; background-color: darkcyan;">
+            <div>
+                <li>
+                    Site Nama
+                </li>
+            </div>
+            <div>
+                <a href="">Category 1</a>|
+                <a href="">Category 2</a>|
+                <a href="">Category 3</a>
+            </div>
+            <div>
+                <img src="keranjang logo.jpg" alt="" width="20"> Cart 1
+            </div>
+        </div>
+    </div>
+
+<!--Content-->
+    <div style="display: flex;height: 100%;">
+<!--your cart-->
+        <div style="width: 100%; padding: 20px;">
+            <h3>Your Cart</h3>
+            <table rules="rows" style="width: 100%; "">
+                <thead>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="hodie.jpg" alt="" width="100">                          
+                        </td>
+                        <td>
+                            Hoodie <br> Size : Small
+                        </td>
+                        <td>
+                            <b>$30.00</b>
+                        </td>
+                        <td>
+                            <select name="Order" id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" colspan="3">Subtotal: <b>$90.00</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!--Summary-->
+    <div style="background-color: bisque;widht: 30%;height: fit-content;padding: 25px;margin: 20px">
+        <H3>Summary (3 Item)</H3>
+        <table style="Widht: 100%;">
+            <tr>
+                <td><b>Subtotal</b></td>
+                <td><b>$90.00</b></td>
+            </tr>
+            <tr>
+                <td><b>Shiping</b></td>
+                <td><b>-</b></td>
+            </tr>
+            <tr>
+                <td><B>Est. Taxes</B></td>
+                <td><b>-</b></td>
+            </tr>
+            <tr>
+                <td colspan="2"><hr></td>
+            </tr>
+            <tr>
+                <td><b>Total</b></td>
+                <td><b>$90.00</b></td>
+            </tr>
+        </table>
+        <button style="widht:100% ;">Checkout</button>
+    </div>
+
+    <!--Foot-->
+    <div style="Display:flek;justify-content:space-between;flek-direction: row;padding: 10px;background-color:aquamarine">
+        <div>
+            Site Name <br>
+            <img src="visa_colored.jpg" alt="" width="20">
+            <img src="master_card.png" alt="" width="20">
+            <img src="american_expres.png" alt="" width="20">
+        </div>
+        <div>
+            <a href="">Category 1</a>|
+            <a href="">Category 2</a>|
+            <a href="">Category 3</a>
+        </div>
+        <div>
+            Stay In Touch! Join Our Newsletter <br>
+            <input type="text" placeholder="enter your email">
+            <button style="background-color: rgb(128, 128, 128); color:bisque"><b>Subscribe</b></button>
+        </div>
+    </div>
+</body>
+</html>
